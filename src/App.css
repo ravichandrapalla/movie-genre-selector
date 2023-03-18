@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+/*.table-div {
+  background-color: green;
+}
+.table {
+  margin: auto;
+}*/
+.genres {
+  display: inline-block;
+  margin: auto;
+  background-color: whitesmoke;
+  border-radius: 10px;
+}
+.genres p {
+  text-align: left;
+  font-size: x-large;
+  font-weight: bolder;
+  margin: 1rem;
+}
+.button {
+  border: none;
+  padding: 0.4rem;
+  background-color: lightgrey;
+  border-radius: 5px;
+  margin: 2px;
+}
+.table-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table {
+  width: 60%;
+  border-collapse: collapse;
+  margin-top: 2rem;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 0.5rem;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
